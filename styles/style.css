@@ -13,10 +13,6 @@
 .c-item {
   height: 700px;
 }
-.c-img {
-  height: 100%;
-  filter: brightness(0.7);
-}
 
 .carousel-caption {
   width: 500px;
@@ -46,4 +42,23 @@
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
+    transition: 0.5s;
+}
+.btnCarusel:hover{
+    color: white;
+    background-color: black;
+}
+
+
+.cr1{
+background-image: url('../assets/slide-1.jpg');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.cr2{
+background-image: url('../assets/slide-2.jpg');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
 }
